@@ -1,0 +1,482 @@
+body{margin: 0;padding: 0;}
+.web_background{
+	width: 100%;
+    height: auto;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+.ad_bg{
+	width: 3000px;
+    height: 2600px;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    top: 160px;
+    margin-left: -1500px;
+}
+.ad_bg img{
+	width: 3000px;
+	height: auto;
+	display: block;
+}
+.fl{float: left;}
+.fr{float: right;}
+a{text-decoration: none;color: white;text-align: center;}
+.dis{display: inline-block;}
+.text1{
+	font-size: 0.6em;
+	color: white;
+}
+.text2{
+		font-size: 100%;
+}
+.text3{
+	font-size: 1em;
+	color: white;
+}
+.top{
+	background-color: #0A3665; 
+	width: 100%;
+	height: 170px;
+}
+.top_br{
+	height: 130px;
+	margin: 0 auto;
+	max-width: 1440px;
+	position: relative;
+}
+.user{
+	position: absolute;
+	right: 5%;
+}
+.user li{
+	height: 20px;
+	padding-left: 10px;
+	width: 70px;
+	list-style: none;
+	float: left;
+}
+.user_image{
+	float: left;
+	padding-right: 5px;
+	width: 15px;
+	height: 15px;
+}
+.user_border{
+	border-right: 1px solid white;
+}
+.top_search{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 30px;
+	width: 90%;
+}
+.top_logo{
+	padding-left: 20px;
+	margin-top: 20px;
+}
+.top_se{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 65px;
+	height: 35px;
+	background-color: white;
+	border-radius: 8px;
+	width: 45%;
+
+}
+.top_se input{
+	margin-left: 5px;
+	border: none;
+	height: 90%;
+	width: 90%;s
+}
+.top_se img{
+	padding: 5px;
+	padding-right: 12px;
+}
+.top_clothes{
+	margin-top: 35px;
+	padding-right: 5%;
+	width: 15%;
+}
+.top_clothes a{
+	border-bottom: 2px solid white;
+	color: white;
+	text-align: center;
+}
+.top_bo{
+	display: none;
+	position: absolute;
+	width: 100%;
+	top: 105px;
+}
+.top_bo img{
+	width: 980px;
+	height: 45px;
+}
+.se_b{
+	display: none;
+	position: absolute;
+	margin-top: 152px;
+	height: 80px;
+	position: absolute;
+	margin-top: 152px;
+	height: 80px;
+	background-color: white;
+	width: 100%;
+}
+.second_se{
+	margin: 20px auto;
+	height: 80px;
+	background-color: white;
+	border: 8px solid #CFCFCF;
+	border-radius: 8px;
+	width: 90%;
+
+}
+.second_se input{
+	font-size: 40px;
+	margin-left: 5px;
+	border: none;
+	height: 90%;
+	width: 88%;
+}
+.second_se img{
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+	padding-right: 12px;
+}
+.nav_b {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	background-color: #0669B2;
+}
+.nav{
+	position: relative;
+	top: 130px;
+	width: 100%;
+	height:40px;
+	z-index: 1;
+}
+.nav ul{
+	top: -10px;
+	width: 100%;
+	position: absolute;
+}
+.nav li{
+	display: inline-block;
+	list-style: none;
+	padding-left: 3%;
+}
+.nav img{
+	width: 50px;
+}
+.content{
+	position: relative;
+}
+.Carousel{
+	height: 550px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 100%;
+	max-width: 1440px;
+	position: relative;
+	overflow: hidden;
+}
+.browm{
+	position: absolute;
+	top: 170px;
+	z-index: 1;
+	width: 100%;
+	margin-bottom: 0;
+}
+.C_border{
+	position: absolute;
+	width: 100%;
+
+}
+.imagesUl{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.C_images{
+	margin-top: 0;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	background-size: 100%;
+	list-style: none;
+	
+}
+.first{
+		display: block;
+		width: 100%;
+		background: url(../images/15314528688398910.jpg) center no-repeat;
+	}
+.second{
+	display: none;
+	width: 100%;
+	background: url(../images/15312942915553914.jpg) center no-repeat;
+}
+.third{
+	display: none;
+	width: 100%;
+	background: url(../images/15312113912538863.jpg) center no-repeat;
+}
+.C_font{
+	width: 100px;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.C_left{
+	top: 170px;
+	left: 20px;
+}
+.C_right{
+	top: 135px;
+	right: 20px;
+	top: 
+}
+.round{
+	color: white;
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 50px;
+}
+.round li{
+	list-style: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color:#fff;
+    float: left;
+    margin: 7px 8px;
+}
+.round li.on{
+	background: red;
+}
+.team_logo {
+	max-width: 1440px;
+	height: 200px;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.Bo {
+	position: relative;
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+fieldset{
+	border: none;
+	border-top: 1px solid #A7A9AC;
+}
+legend{
+	margin: 0 auto;
+	width: 15%;
+	text-align: center;
+	font-size: 1.1em;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.Bo img{
+	width: 4.8%;
+	height: auto;
+	float: left;
+	padding-left: 1.2%;
+}
+.wast{
+}
+.Nba_logo{
+	position:absolute;
+	width: 100%;
+	height: auto;
+	right: 1%;	
+	top: 0;
+}
+.Nba_logo img{
+	float: right;
+}
+.phone_box{
+	position: relative;
+	display: none;
+	margin-top: 30px;
+	width: 49%;
+	text-align: center;
+	border: 1px solid #A7A9AC;
+	font-size: 1.8em;
+}
+.phone_box span{
+	border-bottom: 1px solid black;
+	margin-left: 2%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.number_img{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.img_tr{
+	width: 90%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.img_tr img{
+	width: 48%;
+	float: left;
+	padding: 1%;
+}
+.img_tr:after{
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.img_logo{
+	width: 60%;
+	margin: 0 auto;
+}
+.img_logo img{
+	width: 10%;
+	padding-left: 4%;
+}
+.blue_botton{
+	display: none;
+}
+.blue_botton span{
+	width: 21%;
+	float: left;
+	margin: 40px 2%;
+	font-size: 2.9em;
+	color: white;
+	text-align: center;
+	background-color: #0A3665;
+	border-radius:10px;
+}
+.nike{
+	position: relative;
+	width: 90%;
+	height: 300px;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.n_next{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top:130px;
+}
+.nike_C{
+	overflow: hidden;
+	width: 75%;
+	height: 250px;
+	margin: 0 auto;
+}
+.nike_C ul{
+	padding-left: 0;
+	width: 600%;
+	height: 250px;
+}
+.n_left{
+    left: 10%;
+	transform: rotate(-45deg);
+}
+.n_right{
+    right: 10%;
+	transform: rotate(135deg);
+}
+.nike_box:before{
+	content: '';
+    display: block;
+    border-left: 2px solid #0A3665;
+    border-top: 2px solid #0A3665;
+    transition: 0.25s;
+    width: 20px;
+    height: 20px;
+}
+.nike li{
+	list-style: none;
+	float: left;
+}
+.nike_img{
+	width: 15%;
+}
+.nike_img img{
+	height: 160px;
+}
+.s_name {
+	width: 80%;
+	font-size:0.6em;
+	height: auto;
+}
+.prize {
+	margin-top: 10px;
+	width: 15%;
+	font-size:1em;
+}
+.n_next:after{
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+footer{
+	position: relative;
+	height:300px;
+	width: 100%;
+	background-color: #0A3665;
+}
+.text3{
+	color: white;
+	font-size: 1em;
+}
+.footer_logo{
+	width: 19%;
+}
+.footer_box{
+	height: 100px;
+	width: 90%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.footer_ul {
+	padding-left: 80px;
+}
+.f_div1{
+	width: 19%;
+	padding-left: 8%;
+}
+.f_div1 li{
+	list-style: none;
+	padding-bottom: 30px;
+}
+.footer_box ul{
+	width: 100%;
+	padding-left: 0;
+	margin-top: 0;
+}
+.footer_ul li{
+	list-style: none;
+	padding-left: none;
+}

@@ -1,0 +1,205 @@
+
+@media screen and (max-device-width:764px){
+	.top_search{
+		top: 50%;
+		transform: translateY(-50%);
+		max-width: 20%;
+		margin: 0 auto;
+	}
+	.top_br{
+	height: 40px;
+	margin: 0 auto;
+	max-width: 1440px;
+	position: relative;
+	}
+	.top_logo{
+		padding-left: 0;
+		margin: 0 auto;
+	}
+	.top_clothes{
+		display: none;
+	}
+	.top_se{
+		display: none;
+	}
+	.user{
+		display: none;
+	}
+	.top{
+	height: 230px;
+	}
+	.top_bo{
+		display: block;
+	}
+	.se_b{
+		display: block;
+	}
+	.Carousel img{
+		display: none;
+	}
+	.nav{
+		display: none;
+	}
+	.nav_b {
+		display: none;
+	}
+	.browm{
+		display: none;
+	}
+	.Carousel{
+	height:1200px;
+	top:60px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1440px;
+	position: relative;
+	overflow: hidden;
+	}
+	.first{
+		background: url(../images/small1.jpg) center no-repeat;
+		background-size: 100% 100%;
+	}
+	.second{
+	background: url(../images/small2.jpg) center no-repeat;
+	background-size: 100% 100%;
+	}
+	.third{
+	background: url(../images/small3.jpg) center no-repeat;
+	background-size: 100% 100%;
+	}
+	.round li{
+	    width: 35px;
+	    height: 35px;
+	    border-radius: 100%;
+	}
+	.round{
+		bottom: 20px;
+	}
+	.team_logo{
+		margin-top: 100px;
+	}
+	legend{
+	width: 30%;
+	font-size: 2em;
+	}
+	.phone_box{
+		display: block;
+	}
+	.clear dl{
+		display: none;
+	}
+	.wast{
+		display: none;
+		min-width: 100%;
+	}
+	.east{
+		display: none;
+		min-width: 100%;
+	}
+	.clear a>dd>img{
+		margin: 20px;
+		max-width: 13%;
+	}
+	.blue_botton{
+		display: block;
+	}
+	.text3{
+		font-size: 1.5em;
+	}
+}
+
+
+@media screen and (max-width:1024px) and (min-width:600px)  {
+	.top_search{
+		position: absolute;
+		width: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top: 5px;
+	}
+	.user ul{
+		padding: 0px;
+	}
+	.user{
+		position: absolute;
+		top: 90px;
+		left: 0;
+	}
+	.user ul{
+	}
+	.user li {
+		height: 13px;
+	}
+	.top_se{
+		width: 198px;
+		top: 20px;
+	    left: auto;
+	    right: 18px;
+	    transform: inherit;
+	}
+	.top_se input{
+		width: 150px;
+	}
+	.top_clothe {
+		max-width: 20%;
+		height: 20px;
+	}
+	.top_clothes a{
+		font-size: 80%;
+	}
+	.nav ul{
+	padding-left: 0;
+	}
+	.east{
+		float: left;
+		width: 50%;
+	}
+	.wast{
+		float: left;
+		width: 49%;
+		margin-top: 0;
+	}
+	.Nba_logo{
+		display: none;
+	}
+	.clear dl {
+		width: 100%;
+		height: 100px;
+		position: relative;
+
+	}
+	.clear dl>img{
+		position: absolute;
+		left: 50%;
+		transform:translateX(-50%);
+		width: 24%;
+	}
+	.clear a>dd>img{
+		width: 30%;
+	}
+	.east{
+		border-right: 1px solid #A7A9AC;
+	}
+	.img_tr img{
+		margin: 0 auto;
+		margin-left: 11.5%;
+		width: 80%;
+	}
+	.img_logo img{
+		width: 9%;
+	}
+	footer ul{
+	width: 30%;
+	}
+	.footer_logo{
+	width: 100%;
+	}
+	.f_div1{
+	margin-top: 30px;
+	width: 33%;
+	padding-left: 0;
+	}
+	footer{
+	height:400px;
+	}
+}
